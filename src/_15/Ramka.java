@@ -17,9 +17,9 @@ public class Ramka extends JFrame {
     public void paint(Graphics g) {
         g.drawRect(50,50,100,100);
 
-        //set color to Green
+//        set color to Green
 //        g.setColor(Color.GREEN);
-        //fill rectangle with GREEN color
+//        fill rectangle with GREEN color
 //        g.fillRect(50,50,300,100);
     }
 }

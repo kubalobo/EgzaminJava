@@ -20,9 +20,7 @@ public class RamkaKlikalna extends JFrame {
             public void run() {
                 JFrame ramka = new RamkaKlikalna();
 
-                Container c = ramka.getContentPane();
-
-                c.addMouseListener(new MouseAdapter() {
+                ramka.addMouseListener(new MouseAdapter() {
                     @Override
                     public void mouseClicked(MouseEvent e) {
                         System.out.println(e.getX() + " " + e.getY() + " " + System.currentTimeMillis());
