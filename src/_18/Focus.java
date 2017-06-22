@@ -1,21 +1,20 @@
-import _10.CopyFile;
-import _12.Reader;
-import _15.Ramka;
-import _16.RamkaKlikalna;
-import _17.Grid;
-import _18.Focus;
-import _9.Zgadnij;
+package _18;
 
 import javax.swing.*;
-import java.awt.*;
-import java.awt.event.FocusAdapter;
-import java.awt.event.FocusEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.io.IOException;
 
-public class Main {
+/**
+ * Created by Kuba on 22.06.2017.
+ * 18. Napisz przykładowy program obsługujący zdarzenia focusGained i focusLost.
+ */
+public class Focus extends JFrame {
+    public Focus() {
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setSize(1000, 1000);
+        setVisible(true);
+    }
+}
 
+/*
     public static void main(String[] args) throws IOException {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
@@ -36,4 +35,4 @@ public class Main {
             }
         });
     }
-}
+ */
