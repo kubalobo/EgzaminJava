@@ -10,8 +10,6 @@ import java.awt.*;
  */
 public class Ramka extends JFrame {
     public Ramka() {
-        super("Hello World");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(1000, 1000);
         setVisible(true);
     }

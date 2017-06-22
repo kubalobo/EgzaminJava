@@ -13,3 +13,22 @@ public class RamkaKlikalna extends JFrame {
         setVisible(true);
     }
 }
+
+/*public static void main(String[] args) throws IOException {
+        EventQueue.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                JFrame ramka = new RamkaKlikalna();
+
+                Container c = ramka.getContentPane();
+
+                c.addMouseListener(new MouseAdapter() {
+                    @Override
+                    public void mouseClicked(MouseEvent e) {
+                        System.out.println(e.getX() + " " + e.getY() + " " + System.currentTimeMillis());
+                    }
+                });
+            }
+        });
+    }
+    */
