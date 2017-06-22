@@ -32,6 +32,7 @@ public class StatystykiOcen {
     }
 
     public float mediana() {
+
         if(oceny.length%2 == 0) {
             return (oceny[oceny.length/2] + oceny[oceny.length/2+1]) / 2;
         }
