@@ -47,3 +47,6 @@ public class Dir {
     }
 }
 
+/*public static void main(String[] args) throws IOException {
+        Dir.list2("C:");
+    }*/
