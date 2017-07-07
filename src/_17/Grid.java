@@ -11,7 +11,7 @@ public class Grid extends JFrame {
         setSize(1000, 1000);
         setVisible(true);
         setLayout(new GridLayout(3, 2));
-        add(new JButton("asdf"));
+        add(new JButton());
         add(new JButton("asdf"));
         add(new JButton("asdf"));
         add(new JButton("asdf"));

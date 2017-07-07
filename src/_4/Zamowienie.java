@@ -5,7 +5,7 @@ import java.util.List;
 
 //import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
 
-class Zamowienie {
+public class Zamowienie {
     List<Pozycja> pozycje = new ArrayList<>();
     int ileDodanych = 0;
     int maksRozmiar;
@@ -13,11 +13,11 @@ class Zamowienie {
     Zamowienie() {
         maksRozmiar = 10;
     }
-    Zamowienie(int maks) {
+    public Zamowienie(int maks) {
         maksRozmiar = maks;
     }
 
-    void dodajPozycje(Pozycja P) {
+    public void dodajPozycje(Pozycja P) {
         pozycje.add(P);
         ileDodanych++;
     }

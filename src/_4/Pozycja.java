@@ -1,11 +1,11 @@
 package _4;
 
-class Pozycja {
+public class Pozycja {
     String nazwaTowaru;
     int ileSztuk;
     double cena;
 
-    Pozycja(String n, int i, double c) {
+    public Pozycja(String n, int i, double c) {
         nazwaTowaru = n;
         ileSztuk = i;
         cena = c;

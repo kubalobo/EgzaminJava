@@ -37,7 +37,7 @@ public class Licznik {
         }
 
         Scanner skan = new Scanner(plik);
-        while ()
+//        while ()
 
         System.out.println("Znaki: " + licznikZnakow);
         System.out.println("Biale znaki: " + licznikBialych);

@@ -11,9 +11,11 @@ import java.awt.*;
 public class Ramka extends JFrame {
     public Ramka() {
         setSize(1000, 1000);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
     }
 
+    @Override
     public void paint(Graphics g) {
         g.drawRect(50,50,100,100);
 
